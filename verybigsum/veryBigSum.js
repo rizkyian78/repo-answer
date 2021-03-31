@@ -1,13 +1,5 @@
 
 function aVeryBigSum(arr) {
-    const container = [] //10001232432
-    for(const i in arr) {
-        if(typeof arr[i] === "string") { 
-           arr[i] = Number(arr[i].replace(/[^\d.-]/g, '')) // "10003432"
-        }
-        container.push(arr[i])
-    }
-    return container.reduce((a,b) => a + b)
 }
 
 const result = (testStudent, testCase) => testStudent === testCase
